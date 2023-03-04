@@ -21,11 +21,40 @@ function round(data){
 
 
 function str(data){
-
-     if(typeof(data) == 'number'){
-         console.error(`The Given data is not string`);
-     }else{
     return parseInt(data);
-    }
-    
 }
+
+function islower(data){
+    let lower = data.toLowerCase();
+    if(data == lower){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+
+function casefold(data){
+    return data.toLowerCase();
+}
+
+
+function capitalize(data){
+    return data.charAt(0).toUpperCase() + data.slice(1);
+}
+
+
+function endswith(data,character){
+   let len = data.length-1;
+   
+   if(character.toLowerCase() == data.charAt(len).toLowerCase()){
+       return true;
+   }
+   else{
+       return false;
+   }
+   
+}
+
+
