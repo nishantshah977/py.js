@@ -6,13 +6,13 @@ A JavaScript module which makes easy for python developers to use JavaScript.
 
 If you want to use you can also do it but note it's still under development
 
-CDN : ```https://nishantshah.tk/py.js/```
+CDN : ```https://nishantshah.tk/py.js/py.js```
 
 Download Will Be available after development.
 
 # Getting Started
 Currently We only support CDN
-`<script src="https://nishantshah.tk/py.js/"></script>`
+`<script src="https://nishantshah.tk/py.js/py.js"></script>`
 
 # Syntax
 
