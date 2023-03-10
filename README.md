@@ -24,9 +24,11 @@ Currently We only support CDN
 # Hello World
 
 ```
+<script src="https://nishantshah.tk/py.js/py.js"></script>
 <script>
 print("Hello World")
 </script>
 ```
 
  
+# Development on hold 
